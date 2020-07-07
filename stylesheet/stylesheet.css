@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.enterinput{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    display: flex;
+    margin-top: 15px;
+}
+
+.cross{
+    text-decoration: line-through;
+}
+
+
+.del{
+    display: none;
+    margin-left: auto;
+}
+
+li:hover {
+    cursor: pointer;
+}.del{
+    display: block;
+    cursor: pointer;
+}
